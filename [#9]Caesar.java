@@ -6,7 +6,7 @@ public class Caesar {
 		cs.run();
 	}
 	public void run() {
-		System.out.println(" : Hello World");
+		System.out.println("원문 : Hello World");
 		String hello="Hello World";
 		String answer = "";
 		int len = hello.length();
