@@ -9,7 +9,7 @@ public class printStar {
 		star.print();
 	}
 	public void print() {
-		System.out.print("¼ıÀÚÀÔ·Â : ");
+		System.out.print("Â¼Ã½Ã€ÃšÃ€Ã”Â·Ã‚ : ");
 		int num = scan.nextInt();
 		for(int i=1;i<num;i++) {
           for(int j=1;j<=i;j++) {
