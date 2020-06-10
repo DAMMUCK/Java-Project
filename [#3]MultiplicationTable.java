@@ -3,9 +3,9 @@ package practice.kunsan.ac;
 public class MultiplicationTable {
 	public static void main(String[] args) {
 		MultiplicationTable multi = new MultiplicationTable();
-		System.out.println("±¸±¸´Ü 3´Ü");
+		System.out.println("구구단 3단");
 		multi.multi3();
-		System.out.println("±¸±¸´Ü");
+		System.out.println("구구단");
 		multi.multiTotal();
 	}
 	public void multi3() {
