@@ -10,22 +10,22 @@ public class calcScore {
 	}
 	public void calculation() {
 		int num=0;
-		System.out.print("Á¡¼öÀÔ·Â : ");
+		System.out.print("ì ìˆ˜ì…ë ¥ : ");
 		num=scan.nextInt();
 		if(num>=90 && num<=100) {
-			System.out.println("ÇĞÁ¡ : A");
+			System.out.println("í•™ì  : A");
 		}else if(num>=80 && num<90)
 		{
-			System.out.println("ÇĞÁ¡ : B");
+			System.out.println("í•™ì  : B");
 		}else if(num>=70 && num<80) {
-			System.out.println("ÇĞÁ¡ : C");
+			System.out.println("í•™ì  : C");
 		}
 		else if(num>=60 && num<70) {
-			System.out.println("ÇĞÁ¡ : D");
+			System.out.println("í•™ì  : D");
 		}else if(num>=50 && num<60) {
-			System.out.println("ÇĞÁ¡ : F");
+			System.out.println("í•™ì  : F");
 		}else{
-			System.out.println("Àß¸øÀÔ·Â!!");
+			System.out.println("ì˜ëª»ì…ë ¥!!");
 		}
 		scan.close();
 			
