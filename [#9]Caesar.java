@@ -6,7 +6,7 @@ public class Caesar {
 		cs.run();
 	}
 	public void run() {
-		System.out.println("¿ø¹® : Hello World");
+		System.out.println(" : Hello World");
 		String hello="Hello World";
 		String answer = "";
 		int len = hello.length();
@@ -19,6 +19,6 @@ public class Caesar {
 			}
 			answer +=alpha;
 		}
-		System.out.println("¾ÏÈ£ :"+answer);
+		System.out.println("암호 :"+answer);
 	}
 }
