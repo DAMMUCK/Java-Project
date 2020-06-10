@@ -2,7 +2,7 @@ package practice.kunsan.ac;
 
 public class Sum {
 	public static void main(String[] args) {
-		System.out.println("1ºÎÅÍ 100±îÁö ÇÕ»ê");
+		System.out.println("1부터 100까지 합산");
 		Sum sum = new Sum();
 		System.out.println(sum.sumNum());
 	}
