@@ -18,7 +18,7 @@ public class sumAvgOfClass {
 				sum+=student[i][j];
 			}
 			avg=sum/(double)3;
-			System.out.println(" ÇÕ°è : "+sum+", Æò±Õ : "+Math.round(avg*100)*0.01);
+			System.out.println(" 합계 : "+sum+", 평균 : "+Math.round(avg*100)*0.01);
 			sum=0;
 			avg=0.0;
 		}
